@@ -1,0 +1,13 @@
+[Unit]
+Description=strobe pulse generator
+After=network.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=forking
+Restart=always
+ExecStart=/usr/bin/strobe
+IgnoreSIGPIPE=false
+
