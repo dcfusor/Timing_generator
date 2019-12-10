@@ -23,6 +23,7 @@ If you copy it to other than the above directory, you'll have to use systemctl t
 This will then run from boot, but not do anything till you send it a message on UDP socket 42742.
 
 The commands are:
+
 g or G to start the 100 ms pulse train (low true).
 s or S to stop it.
 q or Q to terminate the daemon (used for initial testing).
